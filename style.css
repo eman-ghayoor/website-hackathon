@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-nav {
+    width: Fixed (1,440px)px;
+   height: Hug (68px)px;
+  padding: 0px 100px 0px 100px;
+  gap: 0px;
+   justify-content: space-between;
+   opacity: 0px;
+
+}
+.navbar-brand {
+    font-family: Space Grotesk;
+    font-size: 20px;
+   font-weight: 400;
+   line-height: 28px;
+   text-align: left;
+   width: Hug (811px)px;
+  height: Hug (68px)px;
+   gap: 40px;
+   opacity: 0px;
+}
+.header {
+
+  font-family: Space Grotesk;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 76.56px;
+  text-align: left;
+  width: 531px;
+  height: 231px;
+  margin-left:80px ;
+  margin-top: 40px;
+  color: black;
+  position: absolute;
+}
+.p1 {
+    font-family: Space Grotesk;
+    font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  width: 498px;
+  height: 112px;
+  gap: 0px;
+  
+  margin-left:80px ;
+  margin-top: 300px;
+  color: black;
+  position: absolute;
+}
+.illus {
+
+  margin-left:700px ;
+  padding-bottom: 800px;
+
+}
+.btn {
+     background-color: black;
+     color: white;
+     border-radius: 20px;
+     padding: 5px;
+     bottom: 100px;
+     position: absolute;
+     right: 1100px;
+     
+     
+}
+.logo {
+    bottom: 800px;
+    position: relative;
+}
+.service {
+    position: relative;
+    bottom: 700px;
+}
+.block {
+    position: relative;
+    bottom: 800px;
+}
+.sub {
+    position: relative;
+    bottom: 600px;
+}
+.contact {
+    position: relative;
+    bottom: 400px;
+}
+@media only screen and (max-width:800px;) {
+    .flex-nav {
+        justify-content: space-around;
+    } 
+    .navbar-brand  {
+        display: none;
+    }
+}
